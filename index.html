@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content="Moteur de classification d'aricles wikipedia selon les themes"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>VIZ</title>
+
+  <script src="bower_components/d3/d3.js"></script>
+
+
+  <link href="bower_components/materialize/bin/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="styles/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style media="screen">
+    .circle_language:hover {opacity: 0.5;}
+    #bars {     margin: 0 auto;
+      display: inline-block;
+    }
+    #bars table{border-spacing: 0;}
+    #bars table th {border-bottom: 2px solid #cccccc;padding: 5px;}
+    .wordweightrow td {border-bottom: 1px solid #e6e6e6;padding: 10px;}
+    tr:nth-child(even) {background-color: #f2f2f2}
+    .wordweightrow:hover {background-color:#e6e6e6;}
+
+    .tooltip{
+      position: absolute;
+      text-align: center;
+      width: 150px;
+      height: 40px;
+      padding: 2px;
+      font: 12px sans-serif;
+      background: rgba(58, 82, 77, 0.5);
+      border: 0px;
+      border-radius: 8px;
+      color:white;
+      box-shadow: -1px 1px 6px #888888;
+      opacity:0;
+
+    }
+  </style>
+
+</head>
+
+<body ng-app="projSemApp">
+
+<nav class=" blue-grey lighten-3" role="navigation" style="height:110px;">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo">
+      <h1>CCTV</h1>
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#" >Topics</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+
+
+<div class="section no-pad-bot" id="index-banner">
+
+  <div class="container ">
+      <div ng-view ></div>
+  </div>
+</div>
+
+<footer class="page-footer  blue-grey lighten-3">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Data-Viz</h5>
+        <p class="grey-text text-lighten-4"> Data-Viz is a data visualization WebApp coded with <a href="https://angularjs.org/"> AngularJS 1.6.4</a> and <a href="https://d3js.org/"> D3.js</a>
+          a JavaScript library for manipulating data.</br> </br>The design is made with the CSS framework <a href="http://materializecss.com/">Materialize</a></p>
+
+
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Made by TeamAlpha
+    </br>
+    Institut Galillée, Université Paris XIII ,2017
+    </div>
+  </div>
+</footer>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+
+    !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+            (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+    }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
+
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/services/topicFactory.js"></script>
+<script src="scripts/controllers/topicsCtrl.js"></script>
+<script src="scripts/controllers/wordsCtrl.js"></script>
+<script src="scripts/services/bubbleFactory.js"></script>
+<script src="scripts/controllers/bubbleCtrl.js"></script>
+<script src="scripts/directives/my-bubbleDirective.js"></script>
+<script src="scripts/directives/myWordsDirective.js"></script>
+<script src="scripts/services/articleFactory.js"></script>
+<script src="scripts/controllers/articleCtrl.js"></script>
+<script src="scripts/directives/myArticleDirective.js"></script>
+<script src="scripts/filters/lggeFilter.js"></script>
+<script src="scripts/filters/wordFilter.js"></script>
+<script src="scripts/directives/my-topicDirective.js"></script>
+<!-- endbuild -->
+</body>
+</html>
