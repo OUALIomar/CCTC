@@ -1,0 +1,95 @@
+
+<nav style="margin-bottom:5px;">
+  <div class="nav-wrapper">
+    <div class="col s12 blue-grey lighten-5 lighten-5" >
+      <a href="#!" class="breadcrumb">Topics</a>
+      <a href="#!/words/{{id}}" class="breadcrumb">Topic {{id}}</a>
+
+    </div>
+  </div>
+</nav>
+
+<div class="section grey lighten-5">
+
+    <!--   Icon Section   -->
+    <div class="row" style="margin-left:0px ; margin-right:10px;">
+        <div class="col s4">
+
+            <div  class="icon-block ">
+                <h5>Words frequencies </h5>
+                <!-- cercle chargement -->
+                <div ng-show="loading" class="preloader-wrapper active">
+                  <div class="spinner-layer spinner-b2dfdb-only">
+                    <div class="circle-clipper left">
+                      <div class="circle"></div>
+                    </div><div class="gap-patch">
+                      <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                      <div class="circle"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div ng-hide="loading" id="bars">
+                    <input type="text" ng-model="search" placeholder="Search for a word">
+
+                    <my-words-directive data="words" lang="lang" search="search"  ></my-words-directive>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col s8  blue-grey lighten-5 lighten-5">
+            <div class="icon-block">
+                <h5>Languages </h5>
+                <div class="row" style="margin-left:0px ; margin-right:10px;">
+                    <div ng-show="loading" class="preloader-wrapper active">
+                      <div class="spinner-layer spinner-b2dfdb-only">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div ng-hide="loading"  id="chart" ng-controller="bubbleCtrl">
+                        <a class="btn-floating btn-large waves-effect waves-teal lighten-2" title="Click to reset words list" ng-click="reset()"><i class="large material-icons">replay</i> </a>
+                        <my-bubble-directive data="bubbles" handle-click="handleClick(lang)" ></my-bubble-directive>
+
+                    </div>
+                </div>
+
+<!--                <div class="row" style="margin-left:0px ; margin-right:10px; margin-top:20px;border-top: 2px solid #cccccc ;">
+                    <h5>Top articles</h5>
+
+                    <div ng-show="loading" class="preloader-wrapper active">
+                      <div class="spinner-layer spinner-b2dfdb-only">
+                        <div class="circle-clipper left">
+                          <div class="circle"></div>
+                        </div><div class="gap-patch">
+                          <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                          <div class="circle"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div ng-hide="loading"  id="barsArticle" ng-controller="articleCtrl">
+                        <my-article-directive data="articles" lang="lang"></my-article-directive>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+<br><br>
+
+<div class="section">
+
+</div>
