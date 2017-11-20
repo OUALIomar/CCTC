@@ -1,0 +1,599 @@
+{
+    "details": [
+        {
+            "Language": "de",
+            "NumberOfWords": 6
+        },
+        {
+            "Language": "en",
+            "NumberOfWords": 216
+        },
+        {
+            "Language": "it",
+            "NumberOfWords": 1251
+        }
+    ],
+    "id": 21,
+    "words": [
+        {
+            "Language": "it",
+            "Occurrences": 69,
+            "Word": "malayalam"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 68,
+            "Word": "caramello"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 68,
+            "Word": "vfr"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 66,
+            "Word": "arrivasse"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 60,
+            "Word": "colsero"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 60,
+            "Word": "lanfranchi"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 52,
+            "Word": "metabolici"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 49,
+            "Word": "l'incubo"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 46,
+            "Word": "limoges"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 46,
+            "Word": "ammirati"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 43,
+            "Word": "full-screen"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 41,
+            "Word": "domiciliari"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 41,
+            "Word": "inner"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 41,
+            "Word": "bancaria"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 38,
+            "Word": "unsaturated"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 37,
+            "Word": "abolendo"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 31,
+            "Word": "reeder"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 28,
+            "Word": "villarreal"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 27,
+            "Word": "stannis"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 27,
+            "Word": "cardassiani"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 26,
+            "Word": "agropoli"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 25,
+            "Word": "acquistarono"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 24,
+            "Word": "delonge"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 21,
+            "Word": "sintasi"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 21,
+            "Word": "sirenetta"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 21,
+            "Word": "chaumont"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 21,
+            "Word": "gannon"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 20,
+            "Word": "vivamente"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 20,
+            "Word": "patrio"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 18,
+            "Word": "gravose"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 17,
+            "Word": "enfatizzare"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 17,
+            "Word": "condensare"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 14,
+            "Word": "cagna"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 13,
+            "Word": "theotokos"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 13,
+            "Word": "bebop"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 13,
+            "Word": "peccatrice"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 12,
+            "Word": "propedeutica"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 11,
+            "Word": "plotino"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 11,
+            "Word": "duggan"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 11,
+            "Word": "ostinato"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 10,
+            "Word": "75°"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 10,
+            "Word": "accadimenti"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 10,
+            "Word": "visualizzati"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 9,
+            "Word": "smontato"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 8,
+            "Word": "avanscoperta"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 7,
+            "Word": "diodi"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 7,
+            "Word": "hundred"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 6,
+            "Word": "traiettorie"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 5,
+            "Word": "parameter"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 5,
+            "Word": "cutesy"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 5,
+            "Word": "ilaria"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 5,
+            "Word": "all'apostolo"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 4,
+            "Word": "interiors"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 4,
+            "Word": "fabrice"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 4,
+            "Word": "mervyn"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 3,
+            "Word": "rollin"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 3,
+            "Word": "moloney"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 3,
+            "Word": "paludose"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 3,
+            "Word": "ruben"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 3,
+            "Word": "nikolaus"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 2,
+            "Word": "voiceless"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 2,
+            "Word": "amazingly"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 2,
+            "Word": "glorify"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 2,
+            "Word": "zobrist"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "rotazioni"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "oliveira"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "calze"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "piton"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "piantato"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "percepiti"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "ampliate"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "trattenuti"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "rescindere"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "merrie"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "mk.i"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 2,
+            "Word": "tengu"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "fruits"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "treasures"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "koreans"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "undisturbed"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "leafy"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "intramural"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "station’s"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "come-from-behind"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "potentialities"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "lm-1"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "asamblea"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "до"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "chi-lites"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "giguere"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "afandi"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "faithfuls"
+        },
+        {
+            "Language": "en",
+            "Occurrences": 1,
+            "Word": "on-reserve"
+        },
+        {
+            "Language": "de",
+            "Occurrences": 1,
+            "Word": "cardinal"
+        },
+        {
+            "Language": "de",
+            "Occurrences": 1,
+            "Word": "einzelwettkampf"
+        },
+        {
+            "Language": "de",
+            "Occurrences": 1,
+            "Word": "halland"
+        },
+        {
+            "Language": "de",
+            "Occurrences": 1,
+            "Word": "banbury"
+        },
+        {
+            "Language": "de",
+            "Occurrences": 1,
+            "Word": "misogynie"
+        },
+        {
+            "Language": "de",
+            "Occurrences": 1,
+            "Word": "bremm"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "un'asta"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "bootleg"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "gendarmeria"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "darling"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "scaturì"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "chiedendole"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "trasformatore"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "reperita"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "cubismo"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "/br"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "inequivocabilmente"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "ewan"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "pesach"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "volkoff"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "drastiche"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "catapultato"
+        },
+        {
+            "Language": "it",
+            "Occurrences": 1,
+            "Word": "trasvolata"
+        }
+    ]
+}
